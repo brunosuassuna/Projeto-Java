@@ -11,8 +11,8 @@ public class Main {
         PessoaJuridica pessoaJuridica = new PessoaJuridica("Empresa TI-BROTHERS", "12.345.678/0001-00", endereco2, 100000.0);
 
         // Criando contas
-        ContaCorrente contaPF = new ContaCorrente("0001", "1234", pessoaFisica, 1000.0, 500.0);
-        ContaPoupanca contaPJ = new ContaPoupanca("0002", "1234", pessoaJuridica, 2000.0, 1.5);
+        Conta contaPF = new Conta("0001", "1234", pessoaFisica, 1000.0);
+        Conta contaPJ = new Conta("0002", "1234", pessoaJuridica, 2000.0);
 
         // Associações
         pessoaFisica.imprimirDados();
@@ -29,11 +29,11 @@ public class Main {
         contaPJ.depositar(1000.0);
         contaPJ.transferir(contaPF, 500.0);
         contaPJ.transferir(contaPF, 500.0);
-
+/*
         // Imprimindo extratos
         contaPF.imprimirExtratoCompleto();
         contaPJ.imprimirExtratoCompleto();
-
+ */
         // Cenário de exceção de saldo insuficiente
         try {
             contaPF.sacar(1000.0);
@@ -48,13 +48,14 @@ public class Main {
         } catch (IllegalStateException e) {
             System.out.println(e.getMessage());
         }
-
+/*
         // Exibindo informações adicionais
         System.out.println("Saldo atual da conta PF: " + contaPF.consultarSaldo());
         System.out.println("Titular da conta PF: " + contaPF.getTitular().getNome());
         System.out.println("Movimentos da conta PF: ");
-        for (Movimento mov : contaPF.getMovimentos()) {
-            System.out.println(mov);
-        }
+*/
+
+        contaPF.imprimirExtratoCompleto();
+
     }
 }

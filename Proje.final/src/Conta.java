@@ -2,7 +2,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Conta implements Extrato {
+public class Conta implements Extrato {
     private String numero;
     private String agencia;
     private Pessoa titular;
@@ -103,7 +103,7 @@ public abstract class Conta implements Extrato {
             System.out.println(movimento);
         }
     }
-
+/*
     @Override
     public void imprimirExtratoDetalhado() {
         System.out.println("Extrato Detalhado da Conta");
@@ -124,4 +124,5 @@ public abstract class Conta implements Extrato {
     public List<Movimento> getMovimentos() {
         return movimentos;
     }
+ */    
 }
