@@ -18,11 +18,8 @@ Brothers Play é uma aplicação mobile inovadora voltada para streaming de film
 ### 📁 Catálogo de filmes dinâmico e categorizado
 
 - 🔍 Busca por título, gênero ou palavra-chave
-
 - 🎥 Tela de detalhes com sinopse, elenco, avaliação e trailer
-
 - ▶️ Player de vídeo integrado à aplicação
-
 - ⭐ Interface moderna, responsiva e com foco na experiência do usuário
 
 ## 🚀 Objetivo do Projeto
@@ -30,3 +27,10 @@ Desenvolver um aplicativo completo que simule uma plataforma real de streaming, 
 
 ## 📌 Status do Projeto
 Em desenvolvimento — novas funcionalidades estão sendo implementadas, como autenticação de usuários, sistema de favoritos e notificações personalizadas.
+
+## 📜 Licença
+- **Licença:** [MIT](https://opensource.org/license/MIT)
+
+## ✉️ Contato
+- **Email:** brunosuassuna.dev@gmail.com
+- **LinkedIn:** www.linkedin.com/in/bruno-suassuna-698aa7235
